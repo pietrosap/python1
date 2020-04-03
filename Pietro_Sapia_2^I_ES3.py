@@ -21,4 +21,5 @@ while True:
  if IsPrimo:
   print("Il numero inserito è primo")
  else:
-   print("Il numero inserito non è primo") 
+   print("Il numero inserito non è primo")
+ input("Premi invio per riavviare il programma")

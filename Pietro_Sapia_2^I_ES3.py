@@ -1,5 +1,5 @@
 while True:
- n=input("Inserire un numero : ")
+ n=input("Enter a number : ")
  if n.isnumeric():
     n=int(n)
     pass
@@ -8,9 +8,9 @@ while True:
     continue
  nf=n%2
  if nf==0 :
-    print("Il numero inserito è pari")
+    print("The number entered is even")
  else :
-    print("Il numero inserito è dispari")
+    print("The number entered is odd")
  IsPrimo = True
  L1=(list(range(2, n)))
  for i in L1:
@@ -19,7 +19,9 @@ while True:
        break
 
  if IsPrimo:
-  print("Il numero inserito è primo")
+  print("The number entered is a prime number")
  else:
-   print("Il numero inserito non è primo")
- input("Premi invio per riavviare il programma")
+   print("The number entered isn't a prime number")
+ input("""
+Press enter to restart the program
+""")
